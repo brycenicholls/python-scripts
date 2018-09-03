@@ -1,6 +1,6 @@
 #!/bin/usr/env python3
 
-# in progress - 
+# in progress -
 
 import os
 
@@ -13,5 +13,4 @@ for i in os.listdir():
     f_1, f_2, f_3, f_4, f_5, = f_name.split('-')
 
     print(f'-{f_1}-{f_2}-{f_3}-{f_4}-{f_ext}')
-
 
